@@ -1,0 +1,40 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dragonball"},
+{"type":"table","name":"characters","database":"dragonball","data":
+[
+{"id":"12","user_id":"1","name":"Vegeta","race":"Saiyan","level":"1","strength":"50","speed":"50","endurance":"50","experience":"0","avatar":"Saitama"},
+{"id":"22","user_id":"2","name":"Freezer","race":"Freezer Race","level":"1","strength":"50","speed":"50","endurance":"50","experience":"0","avatar":"Jonathan Joestar"}
+]
+}
+,{"type":"table","name":"character_transformations","database":"dragonball","data":
+[
+{"id":"1222","character_id":"22","transformation_id":"222"},
+{"id":"2222","character_id":"12","transformation_id":"122"}
+]
+}
+,{"type":"table","name":"tournaments","database":"dragonball","data":
+[
+{"id":"12222","name":"El pentatlon","date":"2024-10-14","winner_id":"12"},
+{"id":"22222","name":"Megatlon","date":"2024-10-14","winner_id":"22"}
+]
+}
+,{"type":"table","name":"tournament_participants","database":"dragonball","data":
+[
+{"id":"122222","tournament_id":"12222","character_id":"22"},
+{"id":"222222","tournament_id":"22222","character_id":"12"}
+]
+}
+,{"type":"table","name":"transformations","database":"dragonball","data":
+[
+{"id":"122","name":"Ultra Transformacion","level_required":"100"},
+{"id":"222","name":"Mega Transformacion","level_required":"120"}
+]
+}
+,{"type":"table","name":"users","database":"dragonball","data":
+[
+{"id":"1","name":"Daniela","email":"danielamendoza@gmail.com","password":"DanielaM","avatar":"Saitama"},
+{"id":"2","name":"Uriel","email":"urieldominyk@gmail.com","password":"UrielD","avatar":"Jonathan Joestar"}
+]
+}
+]
